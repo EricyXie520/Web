@@ -197,10 +197,12 @@ css样式优先级
 
 元素标签分类
       块级:<div><ul><ol><p><h><><table><form>
-
+          独占一行，可设置宽高（默认：100%）
       行内:<a><span><em><label><strong>
 
       行内块：<input><img>
+
+
 
 
 
