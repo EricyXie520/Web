@@ -104,10 +104,47 @@
     内联选择器（1000）> id选择器（100) > 类选择器(10) > 元素选择器(1)
     !important(破坏全局，权重最大)
 
+ 字体属性:
+          font-family（字体）
+            body{
+                  font-family:"字体（word文档里字体类似+还要设置备用字体）";
+                  }
+          
+          font-size
+            body{
+                  font-size:16px(绝对值，像素单位em，rem);
+                  }        
 
+          颜色：color:red;
+               1.rgb( , , );-->rgb(255,255,255)白色(0-255颜色比例)
+               
+               2.rgba(255,255,255,5)a=alpha透明度
 
+               3.#FF5459(十六进制)
 
+          font-style:normal(默认)
+                    :italic(斜体字)
 
+          text-weight:normal=400(默认)
+                细<—400—>粗(100-900)
+
+          text-decoration:none;(默认无效果)
+                         :underline;(下划线)
+                         :overline;(上划线)
+                         :line-throngh(删除线)
+
+          text-indent:16px(缩进一个字)32px(缩进两个字)->取决于字体设置大小
+                      1em=16px
+
+          line-height:60px(行距，行距中显示字体)
+                     字体大小<<行高
+                     
+          letter-spacing:5px(字距)中文
+          word-spacing:10px(字距)英文
+
+          text-align:center;水平居中垂直对齐
+                    :left(左对齐，默认)
+                    :righ;(右对齐)
 
 
 
