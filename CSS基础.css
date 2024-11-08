@@ -218,7 +218,29 @@ css样式优先级
 
           设置四个值(上 右 下 左)
           padding:30px 30px 40px 50px;
-        
+
+
+          外边距(margin)
+           box1+box2=30px (左右两边)
+          （box1）margin-right:10px;
+          （box2）margin-left:20px;
+          
+          box3+box4=20px(上下两边)
+          (box3)margin-top:10px;
+          (box4)margin-bottom:20px;
+          外边距塌陷：垂直方向会出现外边距合并(尽量设置一个方向上的外边距，防止外边距塌陷)
+
+
+          边框(border)
+          border:1px solid red;
+          三要素：粗细(width) 样式(style) 颜色(color)
+
+          border-width:4px;
+          border-style:solid;  (多值同上) 缩写bwt.....
+          border-color:red;
+
+          样式：solid(实线) dotted(点线) double(双线) dashed(虚线)
+
     
 
 
