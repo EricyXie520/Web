@@ -241,6 +241,22 @@ css样式优先级
 
           样式：solid(实线) dotted(点线) double(双线) dashed(虚线)
 
+          清除HTML标签元素的默认样式
+          body,p,ul,ol,dl,dt{
+                    margin: 0;
+                    padding: 0;
+                            }
+          ul,ol{
+          list-style: none;
+                } 
+           input{
+          border: none;
+          outline: none;
+                 }
+          a{
+          text-decoration: none;
+            }
+
     
 
 
