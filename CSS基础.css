@@ -113,11 +113,6 @@ css样式优先级
                         样式；
                           }
 
-
-
-
-
-
 -伪类选择器()
         针对a标签（爱恨准则 LoVe HAte）
         没有被访问过a的状态(标签呈现橙色)
@@ -203,7 +198,27 @@ css样式优先级
       行内块：<input><img>
           在一行内显示，可以设置宽高
 
-盒模型
+盒模型的属性：
+            内容的宽高(weight,height)-->设置的内容的宽高
+            内边距(padding)
+            外边距(margin)
+            边框(border)
+
+          内边距（padding）
+          padding-top-->顶部
+          padding-left-->左边
+          padding-right-->右边
+          padding-bottom-->下边
+          
+          设置两个值（上下 左右）
+          padding:30px 40px;
+
+          设置三个值(上 左右 下)
+          padding：30px 40px 50px;
+
+          设置四个值(上 右 下 左)
+          padding:30px 30px 40px 50px;
+        
     
 
 
